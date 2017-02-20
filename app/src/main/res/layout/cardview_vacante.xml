@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvVacante"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/ad_marginTop"
+    card_view:cardCornerRadius="@dimen/cardview_default_radius">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<ImageView
+            android:layout_width="@dimen/cv_ivPost_width"
+            android:layout_height="@dimen/cv_ivPost_height"
+            android:id="@+id/ivFotoCV"
+            android:src="@drawable/persona_de_sexo_masculino_48" />
+            -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/cv_ll">
+            <TextView
+                android:id="@+id/tvVacanteCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_tvVacante"
+                android:textSize="@dimen/ad_textSize_nombre"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvDescCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_tvDesc"
+                android:textSize="@dimen/ad_textSize_otros"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTexto"
+                android:text="@string/cv_datosContacto"
+                android:textSize="@dimen/ad_textSize_otros"/>
+            <TextView
+                android:id="@+id/tvTelCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_tvTelefono"
+                android:textSize="@dimen/ad_textSize_otros" />
+            <TextView
+                android:id="@+id/tvCorreoCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_tvCorreo"
+                android:textSize="@dimen/ad_textSize_otros"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

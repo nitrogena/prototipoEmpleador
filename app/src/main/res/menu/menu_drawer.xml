@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuuno_opcionUno"
+            android:checkable="false"
+
+            android:title="@string/mov_cuenta"></item>
+        <item android:id="@+id/menuuno_opcionDos"
+            android:checkable="false"
+
+            android:title="@string/mo_creditos"
+            ></item>
+        <item android:id="@+id/menuuno_opcionTres"
+            android:checkable="false"
+
+            android:title="@string/md_ayuda"
+
+            ></item>
+        <item android:id="@+id/menuuno_opcionCuatro"
+            android:checkable="false"
+
+            android:title="@string/md_salir"
+
+            ></item>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/cv_ivPost_width"
+        android:layout_height="@dimen/cv_ivPost_height"
+        android:id="@+id/nh_ivFoto"
+        android:src="@drawable/persona_de_sexo_masculino_48"
+
+        android:layout_margin="@dimen/aa_layout_marginBottom"
+        />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mov_cuenta"
+        android:textStyle="bold"
+        android:textSize="@dimen/ad_textSize_otros"
+        android:layout_marginLeft="@dimen/aa_layout_marginTop"
+        android:layout_marginBottom="@dimen/aa_layout_marginBottom"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>

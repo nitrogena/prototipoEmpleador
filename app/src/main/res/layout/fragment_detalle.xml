@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.jboard.prototipo.Fragments.DetalleFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fp_tvTitulo"
+        android:text="@string/fd_tvDetalle"
+        android:textAlignment="center"
+        android:textSize="@dimen/ar_titulo"
+        android:layout_marginBottom="@dimen/aa_layout_marginBottom"
+        />
+
+</FrameLayout>

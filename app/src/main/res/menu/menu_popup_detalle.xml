@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mpdCurriculum"
+        android:title="@string/mpd_verCurriculum">
+
+    </item>
+    <item android:id="@+id/mpdContactar"
+        android:title="@string/mc_contactar">
+
+    </item>
+</menu>

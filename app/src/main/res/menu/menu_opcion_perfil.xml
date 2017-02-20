@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mopEditar"
+        android:title="@string/mop_editarDatos"
+        android:orderInCategory="100">
+
+    </item>
+    <item
+        android:id="@+id/mopEditarFoto"
+        android:title="@string/mop_EditarFoto"
+        android:orderInCategory="101">
+
+    </item>
+    <item
+        android:id="@+id/mopVerCurriculum"
+        android:title="@string/mop_verCurriculum"
+        android:orderInCategory="102">
+
+    </item>
+
+    <item
+        android:id="@+id/moAcerca"
+        android:title="@string/mo_lista"
+        android:orderInCategory="104">
+
+    </item>
+    <item
+        android:id="@+id/moCreditos"
+        android:title="@string/mo_creditos"
+        android:orderInCategory="105">
+
+    </item>
+
+    <!--<a href="https://icons8.com/web-app/38356/Parse-Resumes">Free icons by Icons8</a> -->
+</menu>

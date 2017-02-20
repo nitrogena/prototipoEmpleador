@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/moContactado"
+        android:title="@string/mo_listaContactado"
+        android:orderInCategory="100">
+
+    </item>
+    <item
+        android:id="@+id/moPendiente"
+        android:title="@string/mo_listaPendiente"
+        android:orderInCategory="101">
+
+    </item>
+    <item
+        android:id="@+id/moOculto"
+        android:title="@string/mo_listaOcultos"
+        android:orderInCategory="102">
+
+    </item>
+    <item
+        android:id="@+id/moNuevo"
+        android:title="@string/mo_listaNuevo"
+        android:orderInCategory="103">
+
+    </item>
+    <item
+        android:id="@+id/moAcerca"
+        android:title="@string/mo_lista"
+        android:orderInCategory="104">
+
+    </item>
+    <item
+        android:id="@+id/moCreditos"
+        android:title="@string/mo_creditos"
+        android:orderInCategory="105">
+
+    </item>
+    <!--<item
+        android:id="@+id/moAvRefresh"
+        android:title="@string/mo_avRefresh"
+        android:orderInCategory="106"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh_filled_50">
+     </item>-->
+</menu>

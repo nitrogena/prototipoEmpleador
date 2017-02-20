@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Prototipo Empleador</string>
+    <string name="am_tvTitulo">Prototipo módulo empleador</string>
+    <string name="am_tvSubtitulo">Bienvenido</string>
+    <string name="am_btnConsultar">Comenzar</string>
+
+    <string name="am_onResume">onResume</string>
+    <string name="am_onStart">onStart</string>
+    <string name="am_onStop">onStop</string>
+    <string name="am_onPause">onPause</string>
+    <string name="am_onRestart">onRestart</string>
+    <string name="am_onDestroy">onDestroy</string>
+    <string name="am_onCreate">onCreate</string>
+    <string name="ad_tvNombre">Nombre</string>
+    <string name="ad_tvTelefono">Teléfono</string>
+    <string name="ad_tvCorreo">Correo electrónico</string>
+    <string name="da_contactar">El postulante ha sido contactado. Seleccione otro.</string>
+    <string name="mo_lista">Acerca de</string>
+    <string name="mo_configura">Configuración</string>
+    <string name="mo_listaContactado">Postulantes contactados</string>
+    <string name="mo_listaPendiente">Postulantes por contactar</string>
+    <string name="mo_listaOcultos">Postulantes ocultados</string>
+    <string name="mo_listaNuevo">Postulantes recientes</string>
+    <string name="ai_acercaDe">Aplicación realizada por la organización Right Monkey.</string>
+    <string name="ai_derechos">Hecho en México. Todos los derechos reservados</string>
+    <string name="ai_Configura">Otro texto</string>
+    <string name="ai_Creditos">Realizado por: David Chávez, Luis Ezcurdia, Nidia Orduña, Marduk Pérez</string>
+    <string name="mo_creditos">Créditos</string>
+    <string name="mc_contactar">Contactar</string>
+    <string name="mpu_Editar">Cambiar foto</string>
+    <string name="modPendiente">Dejar pendiente</string>
+    <string name="mod_ocultar">Ocultar</string>
+    <string name="mo_avRefresh">Refrescar</string>
+
+    <string-array name="ai_Creditos">
+        <item>Realizado por:</item>
+        <item>David Chávez</item>
+        <item>Luis Ezcurdia</item>
+        <item>Nidia Irania Orduña Fonseca</item>
+        <item>Marduk Pérez de Lara</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="am_btnVerPerfil">Ver perfil</string>
+    <string name="ad_tvTelefono_numero">55555555</string>
+    <string name="ad_tvCorreo_valor">nidia@inventado.com</string>
+    <string name="mop_editarDatos">Editar datos</string>
+    <string name="mopEditarFoto">Editar foto</string>
+    <string name="mop_EditarFoto">Editar foto</string>
+    <string name="mop_verCurriculum">Ver curriculum</string>
+    <string name="Curriculum">Curriculum</string>
+    <string name="am_btnUsarCamara">Usar cámara</string>
+    <string name="mensaje1_camara">El permiso ya fue otorgado previamente</string>
+    <string name="mensaje2_camara">Permiso concedido</string>
+    <string name="mensaje3_camara">Sin permisos </string>
+    <string name="mensaje4_camara">Cámara activada</string>
+    <string name="mensaje5_camara">Sin permisos</string>
+    <string name="mpu_EditFotoCamara">Obtener foto cámara</string>
+    <string name="mpu_EditFotoGaleria">Obtener foto galería</string>
+
+    <string name="ar_titulo">Registro</string>
+    <string name="ar_descripcion">Complete su registro:</string>
+    <string name="ar_empresa">Empresa</string>
+    <string name="ar_sector">Sector</string>
+    <string name="ar_btnRegistrar">Registrar</string>
+    <string name="ra_mensaje1">El registro se realizó</string>
+    <string name="ra_mensajeE">Lo sentimos, por el momento no se  pueden registrar sus datos.</string>
+    <string name="ra_mensaje2">Se ha creado la preferencia</string>
+    <string name="ad_tvVacante">Vacante</string>
+    <string name="ad_tvDesc">Descripción</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="registrar">Registrar</string>
+
+
+    <string name="aa_contrasenia">Contraseña</string>
+    <string name="aa_btnIngresar">Ingresar</string>
+    <string name="aa_msgError">Los datos son incorrectos. Por favor, verifíquelos.</string>
+    <string name="aa_preguntaRegistrar">Usuario no encontrado. ¿Desea registrarse con estos datos?</string>
+    <string name="aa_msgErrorContrasenia">La contraseña debe ser mayor de 6 caracteres.</string>
+    <string name="aa_msgErrorRequerido">Este campo es requerido. Por favor, ingréselo.</string>
+    <string name="aa_msgErrorCorreo">El correo no es válido.</string>
+    <string name="aa_btnLimpiar">Limpiar</string>
+    <string name="mov_agregarVacante">Agregar vacante</string>
+    <string name="mov_TodasVacantes">Todas las vacantes</string>
+    <string name="mov_VacantesOcupadas">Vacantes ocupadas</string>
+    <string name="mov_vacantesDisponibles">Vacantes disponibles</string>
+    <string name="mov_vacantesSinPostulantes">Vacantes sin postulantes</string>
+    <string name="mod_verInteresados">Ver postulantes</string>
+    <string name="mod_verSeleccionados">Ver seleccionados</string>
+    <string name="fd_descripcion">Descripción</string>
+    <string name="aa_tvTitulo">Ingrese sus datos.</string>
+    <string name="ad_datosPostulante">Datos del postulante</string>
+    <string name="aa_tvTituloR">Iniciar sesión</string>
+    <string name="fd_tvTitulo">Vacante</string>
+    <string name="fp_tvTitulo">Postulantes de la vacante</string>
+    <string name="fp_datosPerfil">Perfil</string>
+    <string name="fd_tvDetalle">Detalle</string>
+    <string name="fd_descripcionEditar">Editar descripción de la vacante</string>
+    <string name="ad_tvVacantes">Vacantes</string>
+    <string name="ra_mensajeRegistro">Se registró un nuevo usuario</string>
+    <string name="cv_datosContacto">Datos del contacto:</string>
+    <string name="fd_masInfo">Más información:</string>
+    <string name="fav_titulo">Agregar vacante</string>
+    <string name="fav_descripcion">Ingrese los datos siguientes:</string>
+    <string name="fav_vacante">Vacante</string>
+    <string name="avf_vacanteReg">La vacante se registró</string>
+    <string name="ar_btnAceptar">Aceptar</string>
+    <string name="avf_msgErrorVacante">La vacante no es válida</string>
+    <string name="avf_msgErrorDescripcion">La descripción debe ser mayor de 10 caracteres</string>
+    <string name="avf_msgErrorTelefono">El teléfono no es válido</string>
+    <string name="aa_btnCancelar">Cancelar</string>
+    <string name="tabVacDesc">Descripción</string>
+    <string name="tabVacPost">Interesados</string>
+    <string name="tabVacSelec">Elegidos</string>
+    <string name="mov_buscar">Buscar</string>
+    <string name="mov_filtrar">Filtrar</string>
+    <string name="mov_configuracion">Configuración</string>
+    <string name="mov_cuenta">Mi cuenta</string>
+    <string name="mod_publicar">Publicar vacante</string>
+    <string name="mod_desactivarVacante">Desactivar vacante</string>
+    <string name="mod_editar">Editar vacante</string>
+    <string name="mpd_verCurriculum">Ver curriculum</string>
+    <string name="curriculum">Curriculum visto</string>
+    <string name="contactado">Ha sido contactado</string>
+    <string name="aa_registrar">Crear cuenta</string>
+    <string name="aa_tvTituloI">Crear cuenta</string>
+    <string name="aa_btnCrear">Aceptar</string>
+    <string name="mensaje6_camara">Presione la imagen</string>
+    <string name="md_ayuda">Ayuda</string>
+    <string name="md_salir">Salir</string>
+    <string name="ai_ayuda">En esta aplicación una empresa puede gestionar las vacantes que ofrece. Es posible ver una lista de las vacantes, el detalle de cada una, y las personas interesadas en cada vacante.</string>
+    <string name="ar_btnModificar">Modificar</string>
+    <string name="cra_msgModifica">La modificación se realizó</string>
+
+</resources>

@@ -1,0 +1,138 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.jboard.prototipo.Fragments.DescripcionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context="mx.nitrogena.coursera.aplicacion.DescripcionActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <!--
+                        <ImageView
+                            android:layout_width="@dimen/cv_ivPost_width"
+                            android:layout_height="@dimen/cv_ivPost_height"
+                            android:id="@+id/ivFoto"
+                            android:src="@drawable/persona_de_sexo_masculino_48"
+                            android:layout_gravity="center_horizontal"
+                            android:onClick="verMenuPopup"/>
+            -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTitulo"
+                android:textSize="@dimen/ar_titulo"
+                android:text="@string/fd_tvTitulo"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/aa_layout_marginBottom"/>
+            <TextView
+                android:id="@+id/tvVacante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_tvVacante"
+                android:textSize="@dimen/ad_textSize_nombre"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInfo"
+                android:text="@string/fd_masInfo"
+                android:textSize="@dimen/ad_textSize_otros"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDescripcion"
+                android:text="@string/fd_descripcion"
+                android:textSize="@dimen/ad_textSize_otros"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTexto"
+                android:text="@string/cv_datosContacto"
+                android:textSize="@dimen/ad_textSize_otros"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/ad_marginTop"
+                >
+
+                <ImageView
+                    android:id="@+id/ivTelefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phone_50"/>
+                <TextView
+                    android:id="@+id/tvTel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ad_tvTelefono_numero"
+                    android:textSize="@dimen/ad_textSize_otros"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/ad_marginTop">
+                <ImageView
+                    android:id="@+id/ivCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/message_52"/>
+                <TextView
+                    android:id="@+id/tvCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ad_tvCorreo_valor"
+                    android:textSize="@dimen/ad_textSize_otros"/>
+            </LinearLayout>
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ibContactar"
+                    android:src="@drawable/de_acuerdo_48"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ibPreguntar"
+                    android:src="@drawable/signo_de_interrogaci_n_48"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ibOcultar"
+                    android:src="@drawable/no_hay_entrada_48"/>
+            </LinearLayout>-->
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

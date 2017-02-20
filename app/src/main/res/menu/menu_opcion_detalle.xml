@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/modContactar"
+        android:title="@string/mc_contactar"
+        android:orderInCategory="100">
+
+    </item>
+    <item
+        android:id="@+id/modPreguntar"
+        android:title="@string/modPendiente"
+        android:orderInCategory="101">
+
+    </item>
+    <item
+        android:id="@+id/modOcultar"
+        android:title="@string/mod_ocultar"
+        android:orderInCategory="102">
+
+    </item>
+
+    <item
+        android:id="@+id/moAcerca"
+        android:title="@string/mo_lista"
+        android:orderInCategory="104">
+
+    </item>
+    <item
+        android:id="@+id/moCreditos"
+        android:title="@string/mo_creditos"
+        android:orderInCategory="105">
+
+    </item>
+</menu>

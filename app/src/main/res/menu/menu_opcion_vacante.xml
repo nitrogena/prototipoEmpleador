@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/movAgregar"
+        android:title="@string/mov_agregarVacante"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/movVacantesOcupadas"
+        android:title="@string/mov_buscar"
+        android:orderInCategory="101">
+
+    </item>
+    <item
+        android:id="@+id/movTodasVacantes"
+        android:title="@string/mov_filtrar"
+        android:orderInCategory="102">
+
+    </item>
+    <item
+        android:id="@+id/movVacantesDisponibles"
+        android:title="@string/mov_configuracion"
+        android:orderInCategory="103">
+
+    </item>
+    <item
+        android:id="@+id/movVacantesSinPostulantes"
+        android:title="@string/mov_cuenta"
+        android:orderInCategory="104"
+        android:visible="true">
+
+    </item>
+    <item
+        android:id="@+id/moAcerca"
+        android:title="@string/mo_lista"
+        android:orderInCategory="105">
+
+    </item>
+    <item
+        android:id="@+id/moCreditos"
+        android:title="@string/mo_creditos"
+        android:orderInCategory="106">
+
+    </item>
+    <item
+        android:id="@+id/movAgregarV"
+        android:title="@string/mov_agregarVacante"
+        android:orderInCategory="107"
+        app:showAsAction="always"
+        android:icon="@drawable/mas_48"></item>
+    <item
+        android:id="@+id/movAvRefresh"
+        android:title="@string/mo_avRefresh"
+        android:orderInCategory="108"
+        app:showAsAction="always"
+        android:icon="@drawable/actualizar_48"></item>
+</menu>

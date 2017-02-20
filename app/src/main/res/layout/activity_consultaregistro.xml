@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.jboard.prototipo.ConsultaregistroActivity">
+
+    <include android:id="@+id/actionBar"
+        layout="@layout/action_bar">
+    </include>
+    <ProgressBar
+        android:id="@+id/ar_pbProgress"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/ar_svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ar_llForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- <TextView
+                 android:text="@string/ar_titulo"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/ar_tvTitulo"
+                 android:layout_gravity="center"
+                 android:textSize="@dimen/ar_titulo"
+                 android:textAlignment="center"/>-->
+            <TextView
+                android:text="@string/ar_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ar_tvDesc"
+                android:layout_gravity="center"
+                android:textSize="@dimen/ar_titulo"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="@dimen/cv_ivPost_width"
+                android:layout_height="@dimen/cv_ivPost_height"
+                android:id="@+id/ivFoto"
+                android:src="@drawable/persona_de_sexo_masculino_48"
+                android:layout_gravity="center_horizontal"
+                android:onClick="verMenuPopup"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mopEditarFoto"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tvEditarFoto"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/ad_marginTop"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/ivCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/message_52"/>
+                <TextView
+                    android:id="@+id/tvCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ad_tvCorreo_valor"
+                    android:textSize="@dimen/ad_textSize_otros"/>
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ar_tilEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ar_empresa"
+                    android:id="@+id/ar_etEmpresa"
+                    android:inputType="textPersonName"
+                    android:textSize="@dimen/ar_texto"
+                    android:maxLines="1"
+                    android:layout_gravity="center"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ar_tilSector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ar_sector"
+                    android:id="@+id/ar_etSector"
+                    android:inputType="textPersonName"
+                    android:textSize="@dimen/ar_texto"
+                    android:maxLines="1"
+                    android:layout_gravity="center"/>
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ar_btnLimpiar"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/aa_layout_marginTop"
+                    android:text="@string/aa_btnCancelar"
+                    android:layout_weight="1"
+                    android:theme="@style/BotonRaised"
+                    android:layout_gravity="center"/>
+                <Button
+                    android:id="@+id/ar_btnRegistrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/aa_layout_marginTop"
+                    android:text="@string/ar_btnModificar"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:theme="@style/BotonRaised"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
